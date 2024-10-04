@@ -588,7 +588,7 @@
   (symbol (lib_id "power:GND") (at 88.9 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b644a28-5147-458b-b9ca-00e055ca4ec6)
-    (property "Reference" "#PWR07" (at 88.9 111.76 0)
+    (property "Reference" "#PWR04" (at 88.9 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 110.49 0)
@@ -604,7 +604,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -619,7 +619,7 @@
     (property "Value" "LED" (at 198.12 93.0275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 194.31 90.17 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 194.31 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 90.17 0)
@@ -639,7 +639,7 @@
   (symbol (lib_id "power:GND") (at 182.88 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d0247a5-537d-4753-b613-7e50d7d5a622)
-    (property "Reference" "#PWR06" (at 182.88 113.03 0)
+    (property "Reference" "#PWR09" (at 182.88 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 111.76 0)
@@ -655,7 +655,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -670,7 +670,7 @@
     (property "Value" "1k" (at 208.28 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 203.962 100.33 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 203.962 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 100.33 0)
@@ -696,7 +696,7 @@
     (property "Value" "Conn_01x08" (at 91.44 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 88.9 59.69 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" (at 88.9 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 59.69 0)
@@ -722,7 +722,7 @@
   (symbol (lib_id "power:GND") (at 171.45 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5edf705e-4bb1-46f9-97d2-2cb2afbe7592)
-    (property "Reference" "#PWR04" (at 171.45 113.03 0)
+    (property "Reference" "#PWR08" (at 171.45 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 111.76 0)
@@ -738,7 +738,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -753,7 +753,7 @@
     (property "Value" "~" (at 100.33 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 100.33 93.98 0)
+    (property "Footprint" "Package_SO:DS1722_SOIC_8_Custom" (at 100.33 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 100.33 93.98 0)
@@ -785,7 +785,7 @@
     (property "Value" "1k" (at 162.56 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 158.242 100.33 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 158.242 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 100.33 0)
@@ -811,7 +811,7 @@
     (property "Value" "LED" (at 175.26 93.0275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 171.45 90.17 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 171.45 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 90.17 0)
@@ -837,7 +837,7 @@
     (property "Value" "LED" (at 163.83 93.0275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 160.02 90.17 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 160.02 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 90.17 0)
@@ -857,7 +857,7 @@
   (symbol (lib_id "power:+3.3V") (at 160.02 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e9e8656-1fe2-4275-a2e2-e83488083cf2)
-    (property "Reference" "#PWR02" (at 160.02 87.63 0)
+    (property "Reference" "#PWR06" (at 160.02 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 160.02 78.74 0)
@@ -873,7 +873,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -888,7 +888,7 @@
     (property "Value" "1k" (at 196.85 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 192.532 100.33 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 192.532 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 194.31 100.33 0)
@@ -914,7 +914,7 @@
     (property "Value" "LED" (at 209.55 93.0275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 205.74 90.17 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 205.74 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 90.17 0)
@@ -934,7 +934,7 @@
   (symbol (lib_id "power:+3.3V") (at 69.85 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b861b1e6-cdb0-4b74-a070-f62306883d19)
-    (property "Reference" "#PWR011" (at 69.85 71.12 0)
+    (property "Reference" "#PWR01" (at 69.85 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 69.85 62.23 0)
@@ -950,7 +950,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -965,7 +965,7 @@
     (property "Value" "LED" (at 186.69 93.0275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 182.88 90.17 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 182.88 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 90.17 0)
@@ -1010,7 +1010,7 @@
   (symbol (lib_id "power:GND") (at 69.85 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d773865e-055b-4f09-ac4f-360ea9054fc5)
-    (property "Reference" "#PWR012" (at 69.85 76.2 0)
+    (property "Reference" "#PWR02" (at 69.85 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 74.93 0)
@@ -1026,7 +1026,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1066,7 +1066,7 @@
     (property "Value" "1k" (at 173.99 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 169.672 100.33 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 169.672 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 100.33 0)
@@ -1092,7 +1092,7 @@
     (property "Value" "Conn_01x08" (at 120.65 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 123.19 59.69 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" (at 123.19 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 123.19 59.69 0)
@@ -1118,7 +1118,7 @@
   (symbol (lib_id "power:GND") (at 160.02 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f641240b-6fce-48c6-b2d9-8d4cceae2380)
-    (property "Reference" "#PWR01" (at 160.02 113.03 0)
+    (property "Reference" "#PWR07" (at 160.02 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 111.76 0)
@@ -1134,7 +1134,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1149,7 +1149,7 @@
     (property "Value" "1k" (at 185.42 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 181.102 100.33 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 181.102 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.88 100.33 0)
@@ -1169,7 +1169,7 @@
   (symbol (lib_id "power:GND") (at 205.74 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdb9d88d-3d42-4dbb-9c1d-7d4c81c917da)
-    (property "Reference" "#PWR010" (at 205.74 113.03 0)
+    (property "Reference" "#PWR011" (at 205.74 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 111.76 0)
@@ -1185,7 +1185,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1194,7 +1194,7 @@
   (symbol (lib_id "power:GND") (at 194.31 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe4794c9-8fd4-49dc-a1a3-3c54b756ac14)
-    (property "Reference" "#PWR08" (at 194.31 113.03 0)
+    (property "Reference" "#PWR010" (at 194.31 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 111.76 0)
@@ -1210,7 +1210,7 @@
     (instances
       (project "lab6PCB"
         (path "/80dc0c32-0893-4be3-85ab-49ad7a092b7e"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )

@@ -1,0 +1,4 @@
+# KiCad PCB Project .gitignore file
+*backups
+*DS_Store
+*cache
